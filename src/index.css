@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#nav {
+  font-family: "Hubballi", cursive;
+}
+.project-heading {
+  text-shadow: 2px 2px #000000;
+}
+
+.under-line {
+    display: inline-block;
+    border-bottom: 1px solid #1a75ff;
+    padding-bottom: 2px;
+    position: relative;
+  }
+
+  .under-line::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #277af7;
+    transform: skew(-30deg);
+  }
+#education {
+  background-image: url("./images/circle-scatter-haikei.svg");
+  background-repeat: round;
+  background-size: cover;
+}
+
+#hero {
+  background: rgb(253, 29, 29);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 29, 29, 1) 14%,
+    rgb(218, 101, 47) 72%
+  );
+}
+
+#experience {
+   background-color: rgb(216, 217, 218);
+
+
+}
+#contact {
+  font-family: "Hubballi", cursive;
+}
+#hero-text {
+  text-shadow: 4px 4px #4d3427;
+}
+#hero-text2 {
+  text-shadow: 1px 2px #4d3427;
+}
+.techs {
+  background: #da652f;
+  box-shadow: 4px 4px #4d3427;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+}
+
+.projects {
+  background-color: #eea482;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.edu {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(216, 217, 218);
+}
+.contact {
+  background-color: #4d3427;
+}
+
+#skills {
+  background-color: #8d431f;
+}
+.logoimg {
+  height: 60px;
+  width: 120px;
+}
